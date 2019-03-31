@@ -6,8 +6,9 @@ public class CollectionTestMain {
         CollectionSet collectionSet = new CollectionSet();
         CollectionMap collectionMap = new CollectionMap();
 
-        collectionList.TestSpeed();
+        
         collectionSet.TestSpeed();
-        collectionMap.TestSpeed();
+//        collectionList.TestSpeed();
+//        collectionMap.TestSpeed();
     }
 }

@@ -9,6 +9,11 @@ public class CollectionSet implements TestMethod{
     @Override
     public void TestSpeed() {
 
+    	// HashSet<String> stringSet = new HashSet<String>();
+    	// 위와같이 선언할 수 있는데 아래처럼 선언하는 이유는 뭘까?
+    	// Collection 인터페이스는 Set, List, Queue의 상위 인터페이스 이다.
+    	// Set 아래의 구현체에 HashSet, LinkedHashSet, TreeSetd이 존재하므로 가장 상위 책체로 선언하여 구현하기위하여 아래와 같이 선언한다.
+    	// 사실 Collection으로 객체선언해도 상관없다 선언만 Collection 으로하고 구현은 그다음에 new를 통하여서 하기때문에
         Random random = new Random();
         Set<String> stringSet = new HashSet<String>();
         Set<String> stringLinkedHashSet = new LinkedHashSet<String>();
