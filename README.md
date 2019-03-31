@@ -4,8 +4,8 @@
   check Add Time 
   
 2. exampleTest1Main
-  1) int arraySize = 1000;
-	ArrayClass checkaddTime
+1) int arraySize = 1000;
+ArrayClass checkaddTime
 	ArrayClass stringSet=0
 	ArrayClass checkGetTime
 	ArrayClass checkGetTime=0
