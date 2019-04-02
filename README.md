@@ -5,6 +5,7 @@
   
 2. exampleTest1Main
 1) int arraySize = 1000;
+```java
 ArrayClass checkaddTime
 	ArrayClass stringSet=0
 	ArrayClass checkGetTime
@@ -22,6 +23,7 @@ ArrayClass checkaddTime
 	MapClass stringSet=0
 	MapClass checkGetTime
 	MapClass checkGetTime=0
+```
  
   2) int arraySize = 1000000;
 	ArrayClass checkaddTime
